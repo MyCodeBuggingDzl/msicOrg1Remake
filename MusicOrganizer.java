@@ -61,12 +61,20 @@ public class MusicOrganizer
     }
     
     public void checkFiles(int index)
+    //check if index is invalid else nothing happens
     {
-        if(index >= 0 || index >= files.size()){
-            files.get(index);  
-        }
-        else{
+        if(index < 0 || index >= files.size()){
             System.out.println("InValid, range must b betwwenis 0-1");
+        }
+    }
+    
+    public boolean validIndex(int index)
+    {
+        if(index >= 0 && index < files.size()){
+            return true;
+        }
+        else {
+            return false;
         }
     }
 }
