@@ -15,3 +15,48 @@ of listAllFiles along the following lines: System.out.println(files.get(0));
  Notebook-4: How many println statements would be required to complete the method?
  
  As much as there is in the collection since we don't know how many
+ 
+ 
+ 
+ Part 4: While loop
+ 
+ 1. 
+     boolean missing = true;
+     while(missing){
+         if(the keys are in the next place){
+             missing = false;
+         }
+     }
+     
+     boolean found = false;
+     while(!found){
+         if(the keys are in the next place){
+             found = true;
+         }
+     }
+  
+     
+2.
+     public int multipleOfFives()
+     {
+         int x = 5
+         while( x >= 10 && x <= 95){
+             x = x*5;
+             x++;
+         }
+     }
+     
+     
+     
+3-4.
+    public int sumLoop( int a, int b)
+    {
+        int initial = 0;
+        int value = a;
+        while( value <= b){
+            initial = initial + value;
+            value++;
+        }
+        return initial;
+    }
+    
