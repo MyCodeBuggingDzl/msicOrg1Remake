@@ -1,16 +1,6 @@
-Project: music-organizer-v1. A project to collect audio files.
-Authors: David J. Barnes and Michael Kölling
+Question 4. 
+What might the header of a listAllFiles method in the MusicOrganizer
+ class look like? What sort of return type should it have?
+Does it need to take any parameters? (Notebook-3)
 
-This project is part of the material for the book
-
-   Objects First with Java - A Practical Introduction using BlueJ
-   Seventh edition
-   David J. Barnes and Michael Kölling
-
-It is discussed in chapter 4.
-
-To start:
-
-Create a MusicOrganizer object on the object bench.
-Use its methods to add, show, and remove files.
-
+The header would be public void listAllFiles(){...}
