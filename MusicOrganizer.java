@@ -97,10 +97,15 @@ public class MusicOrganizer
     
     public void listMatching(String searchString)
     {
-        
+        boolean search = false;
         for(String filename : files) {
             if(filename.contains(searchString)){
                 System.out.println(filename);
+                search = true;
+            }
+            else{
+                System.out.println("Filname not available");
+                search = false;
             }
         }
     }
